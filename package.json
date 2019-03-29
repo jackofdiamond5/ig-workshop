@@ -8,7 +8,8 @@
     "build": "ng build --prod",
     "test:prod": "ng test -- --no-watch --no-progress --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:app-shell": "ng run igworkshop:app-shell:production"
   },
   "private": true,
   "dependencies": {
@@ -20,7 +21,10 @@
     "@angular/http": "~7.2.11",
     "@angular/platform-browser": "~7.2.11",
     "@angular/platform-browser-dynamic": "~7.2.11",
+    "@angular/platform-server": "~7.2.11",
+    "@angular/pwa": "^0.12.4",
     "@angular/router": "~7.2.11",
+    "@angular/service-worker": "~7.2.11",
     "core-js": "^2.5.4",
     "hammerjs": "^2.0.8",
     "igniteui-angular": "^7.2.2",
