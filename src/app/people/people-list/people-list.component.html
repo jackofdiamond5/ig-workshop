@@ -1,0 +1,16 @@
+<div class="card-container">
+  <igx-card *ngFor="let person of people">
+    <igx-card-header>
+      <!-- <igx-avatar class="my-card-avatar" [initials]="IP"></igx-avatar> -->
+      <div class="igx-card-header__title">
+        {{ person.FirstName + ' ' + person.LastName }}
+      </div>
+      <div class="igx-card-header__subtitle">
+        {{ person.BirthDate | date:'shortDate' }}
+      </div>
+    </igx-card-header>
+    <igx-card-content>
+      IMAGC BOI
+    </igx-card-content>
+  </igx-card>
+</div>
