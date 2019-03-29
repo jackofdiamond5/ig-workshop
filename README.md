@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/jackofdiamond5/ig-workshop.svg?branch=master)](https://travis-ci.org/jackofdiamond5/ig-workshop)
+[![Build Status](https://dev.azure.com/BPenkov/ig-workshop/_apis/build/status/jackofdiamond5.ig-workshop?branchName=master)](https://dev.azure.com/BPenkov/ig-workshop/_build/latest?definitionId=1&branchName=master)
 
 # IgWorkshop
 
